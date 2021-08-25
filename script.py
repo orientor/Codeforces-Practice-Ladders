@@ -1,11 +1,7 @@
 import requests
 import webbrowser
 import subprocess
-
-# Set parameters
-handle = "tourist"
-min_rating = 1800
-max_rating = 1900
+from env import handle, max_rating, min_rating
 
 
 # Returns list of contest IDs from which problems are to be picked
